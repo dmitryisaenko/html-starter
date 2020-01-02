@@ -1,0 +1,22 @@
+//Normalize
+@import "bootstrap-reboot";
+
+// Variables
+@import "_vars.scss";
+@import "_mixin.scss";
+
+// General
+@import "_general.scss";
+@import "_fonts.scss";
+
+// Components
+
+// Parts
+@import "_header.scss";
+@import "_navigation.scss";
+// @import "_slider.scss";
+
+//Media Queries
+@import "_media.scss";
+
+

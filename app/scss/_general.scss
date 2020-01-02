@@ -1,0 +1,90 @@
+::placeholder{
+	color: #666;
+}
+
+::selection{
+	background-color: $accent;
+	color: #fff;
+}
+
+input, textarea{
+	outline: none;
+	&:focus:required:invalid{
+		border-color: red;
+	}
+	&:required:valid{
+		border-color: green;
+	}
+}
+
+html {
+	font-size: 16px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body{
+	font-size: 1rem;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	color: $text;
+	text-align: left;
+	background-color: #fff;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+// Custom Sass / Remove before use
+
+.container{
+	max-width: 1200px;
+	min-width: 320px;
+	width: 100%;
+	padding-left: $gutter/2;
+	padding-right: $gutter/2;
+	margin-left: auto;
+	margin-right: auto;
+}	
+	
+.container-fluid{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.example-grid{
+	display: grid;
+	grid-gap: $gutter;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "left right";
+	> div:first-child{
+		grid-area: left;
+	}
+	> div:last-child{
+		grid-area: right;
+	}
+}
+
+.parent{ // Lazy Load Placeholder Generator: https://webdesign-master.ru/services/lazy/
+	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7);
+}
+
+	
+  
+ 
+  
+  

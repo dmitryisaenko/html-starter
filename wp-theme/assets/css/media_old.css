@@ -1,0 +1,119 @@
+/*(1201 и больше) Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+
+}
+
+/*(993-1200) Medium Devices1, Desktops1 */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+/*(769-992) Medium Devices2, Desktops2 */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+}
+
+/*(481-768) Small Devices, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/*(321-480) Extra Small Devices, Phones */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
+}
+
+/*(320 и меньше) Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
+/* ----------------- ЗНАЧЕНИЕ И БОЛЬШЕ -----------------*/
+
+/*321 и больше */
+@media only screen and (min-width : 321px) {
+
+}
+
+/*481 и больше */
+@media only screen and (min-width : 481px) {
+
+}
+
+/*769 и больше */
+@media only screen and (min-width : 769px) {
+
+}
+
+/*993 и больше */
+@media only screen and (min-width : 993px) {
+
+}
+
+/*1201 и больше */
+@media only screen and (min-width : 1201px) {
+
+}
+
+
+/* ----------------- ЗНАЧЕНИЕ И МЕНЬШЕ -----------------*/
+/*1200 и меньше */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/*992 и меньше */
+@media only screen and (max-width : 992px) {
+
+}
+
+/*768 и меньше */
+@media only screen and (max-width : 768px) {
+
+}
+
+/*660 и меньше */
+@media only screen and (max-width: 660px) {
+	.toggle-button {
+	  display: block;
+	}
+	.menu-wrap {
+		background-color: #6968AB;
+		position: fixed;
+		top: 0;
+		height: 100%;
+		width: 280px;
+		margin-left: -280px;
+		font-size: 1em;
+		font-weight: 700;
+		overflow: auto;
+		transition: .25s;
+		z-index: 10;
+	}
+	ul{
+		display: block;
+	}
+	.menu-show {
+		margin-left: 0;
+		box-shadow: 4px 2px 15px 1px #B9ADAD;
+	}
+	.menu-sidebar {
+		margin: 75px 0 80px 10px;
+		position: relative;
+		top: 70px;
+	}
+	
+}
+
+/*480 и меньше */
+@media only screen and (max-width : 480px) {
+
+}
+
+/*320 и меньше */
+@media only screen and (max-width : 320px) {
+
+}
